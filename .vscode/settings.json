@@ -1,5 +1,8 @@
 {
   "files.watcherExclude": {
-    "**/target": true
+    "**/target": true,
+    "**/.bsp": true,
+    "**/.metals": true,
+    "**/.scala-build": true
   }
 }
