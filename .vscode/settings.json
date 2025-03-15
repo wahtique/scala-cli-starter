@@ -3,6 +3,7 @@
     "**/target": true,
     "**/.bsp": true,
     "**/.metals": true,
-    "**/.scala-build": true
+    "**/.scala-build": true,
+    "out": true
   }
 }
