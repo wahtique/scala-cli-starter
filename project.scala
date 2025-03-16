@@ -2,9 +2,15 @@
 //
 // Scala version
 //> using scala 3.6.3
+// 
+// Compiler options
+//> using options -Wunused:all
 //
 // Main class
 //> using mainClass starter.app.Main
+//
+// Enable build-info in `scala.cli.build.BuildInfo`
+//> using buildInfo
 //
 // PLATFORM 
 //
@@ -33,8 +39,15 @@
 //> using packaging.packageType native
 // packaged app name
 //> using packaging.output out/app
+// 
+// SCALAFIX RULES
 //
-// Dependencies
+// https://github.com/typelevel/typelevel-scalafix
+//> using scalafix.dep org.typelevel::typelevel-scalafix:0.5.0
+// https://github.com/dedis/scapegoat-scalafix
+//> using scalafix.dep io.github.dedis:scapegoat-scalafix:1.1.4
+//
+// DEPENDENCIES
 //
 // cats, cats-effect
 // fs2, fs2-io, fs2-data-csv

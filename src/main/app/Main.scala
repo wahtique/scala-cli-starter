@@ -4,4 +4,4 @@ import cats.effect.*
 import starter.lib.Lib
 
 object Main extends IOApp.Simple:
-  def run = IO.println(Lib.hello)
+  def run: IO[Unit] = IO.println(Lib.hello)
