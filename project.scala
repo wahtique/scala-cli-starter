@@ -7,7 +7,7 @@
 //> using options -Wunused:all
 //
 // Main class
-//> using mainClass starter.app.Main
+//> using mainClass starter.Main
 //
 // Enable build-info in `scala.cli.build.BuildInfo`
 //> using buildInfo
@@ -18,15 +18,15 @@
 //
 // JVM 
 //
-// //> using platform jvm
+//> using platform jvm native
 // jvm like `14`, `adopt:11`, `graalvm:21`, `system`
 // see coursier for complete list : https://github.com/coursier/jvm-index
-// //> using jvm 21
+//> using jvm graalvm-community:24
 // 
 // NATIVE
 //
-//> using platform native
-//> using nativeVersion 0.4.17
+// //> using platform native
+////> using nativeVersion 0.4.17
 //
 // JS
 // 
@@ -36,8 +36,9 @@
 // 
 // packaging types : assembly, raw-assembly, bootstrap, library, source,
 // doc, spark, js, native, docker, graalvm, deb, dmg, pkg, rpm, msi
-//> using packaging.packageType native
-// packaged app name
+//> using packaging.packageType graalvm
+
+// packaged app
 //> using packaging.output out/app
 // 
 // SCALAFIX RULES
