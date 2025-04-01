@@ -5,5 +5,5 @@
     "**/.metals": true,
     "**/.scala-build": true,
     "out": true
-  }
+  },
 }

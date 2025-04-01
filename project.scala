@@ -1,7 +1,7 @@
 // BUILD
 //
 // Scala version
-//> using scala 3.6.3
+//> using scala 3.6.4
 // 
 // Compiler options
 //> using options -Wunused:all
